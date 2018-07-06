@@ -1,7 +1,6 @@
 public class A {
     private int a;
     private String b;
-    private boolean c;
 
     public A() {
     }
@@ -22,11 +21,5 @@ public class A {
         this.b = b;
     }
 
-    public boolean isC() {
-        return c;
-    }
 
-    public void setC(boolean c) {
-        this.c = c;
-    }
 }
